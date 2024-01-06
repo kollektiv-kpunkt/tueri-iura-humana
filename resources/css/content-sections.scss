@@ -1,0 +1,37 @@
+.tih-content-section {
+    @apply min-h-screen flex flex-col justify-center;
+
+    &__content {
+        @apply w-full px-3 md:py-60 py-20;
+
+        >* {
+            @apply max-w-[1318px];
+        }
+
+        >.full-width {
+            @apply max-w-none;
+        }
+
+        p.sm {
+            @apply text-lg max-w-[793px];
+        }
+
+        p {
+            @apply text-2xl md:text-3xl leading-[1.5em];
+
+            &+p {
+                @apply mt-[1em]
+            }
+        }
+
+        h2 {
+            @apply text-6xl md:text-7xl md:mb-16 mb-10;
+        }
+    }
+
+    &.tih-landing-section {
+        .tih-content-section__content {
+            @apply py-10;
+        }
+    }
+}

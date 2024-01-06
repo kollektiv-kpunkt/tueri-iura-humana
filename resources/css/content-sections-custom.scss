@@ -1,0 +1,10 @@
+.tih-content-section {
+
+    &#intro {
+        h1 {
+            font-size: clamp(36px, 13.194444444444444vw, 228px);
+            line-height: 0.85em;
+            @apply md:mb-0 mb-4
+        }
+    }
+}

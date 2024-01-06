@@ -1,0 +1,34 @@
+/**
+* Navigation bar
+*/
+.tih-nav-bar {
+    transform: translateY(-100%);
+    position: sticky;
+    top: 4rem;
+
+    .tih-nav-bar__button {
+        @apply text-sm lg:text-base px-4 py-2 leading-none bg-accent text-black font-bold;
+    }
+
+    .tih-nav-bar__hamburger {
+        .tih-nav-bar__hamburger-button {
+            >div {
+                @apply bg-accent h-[3px] w-7;
+
+                &+div {
+                    @apply mt-1;
+                }
+            }
+        }
+    }
+}
+
+/**
+* Detail toggles
+*/
+
+.tih-details-toggle {
+    &+& {
+        @apply mt-4;
+    }
+}

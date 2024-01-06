@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "./fixes.scss";
+@import "./fonts.scss";
+@import "./typography.scss";
+@import "./base.scss";
+@import "./content-sections.scss";
+@import "./content-sections-custom.scss";
+@import "./elements.scss";

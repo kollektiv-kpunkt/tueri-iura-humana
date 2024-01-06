@@ -1,0 +1,23 @@
+.min-h-screen {
+    min-height: calc(100 * var(--vh, 1vh));
+}
+
+.h-screen {
+    height: calc(100 * var(--vh, 1vh));
+}
+
+.min-w-screen {
+    min-width: calc(100 * var(--vw, 1vw));
+}
+
+.w-screen {
+    width: calc(100 * var(--vw, 1vw));
+}
+
+html {
+    font-size: clamp(16px, 1.157407vw, 24px);
+
+    @media screen and (max-width: 400px) {
+        font-size: clamp(14px, 1.057407vw, 24px) !important;
+    }
+}
