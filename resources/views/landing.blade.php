@@ -15,7 +15,7 @@
         <h2 class="text-background fullwidth">Unsere Argumente.</h2>
         <x-toggle title="Keine Kriminalisierung von Aktivismus!"></x-toggle>
         <x-toggle title="Kein Ausbau der Polizweiwillkür!"></x-toggle>
-        <x-toggle title="Fick dich, Mario!"></x-toggle>
+        <x-toggle title="Irgendwas wegen der Bewilligungspflicht"></x-toggle>
         <x-toggle title="Es trifft uns alle. Wir sind alle Chaot:innen."></x-toggle>
         <x-toggle title="Ohne Chaot:innen, kein Fortschritt!"></x-toggle>
     </x-content-section>
