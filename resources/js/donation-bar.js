@@ -5,8 +5,9 @@ window.addEventListener('load', function () {
     if (!donationBar) return;
     let donationBarInner = donationBar.querySelector('.tih-donation-bar__inner');
     let reveal = ScrollReveal({
-        reset: true,
+        reset: false,
         distance: '0',
+        delay: 1000,
         afterReveal: function () {
             donationBarInner.animate([
                 { width: '0' },
