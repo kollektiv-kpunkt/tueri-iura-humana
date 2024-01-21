@@ -10,8 +10,8 @@
         @apply text-sm lg:text-base px-4 py-2 leading-none bg-accent text-background font-bold;
     }
 
-    .tih-nav-bar__hamburger {
-        .tih-nav-bar__hamburger-button {
+    .tih-nav-bar__tofuburger {
+        .tih-nav-bar__tofuburger-button {
             >div {
                 @apply bg-accent h-[3px] w-7;
 
@@ -20,6 +20,18 @@
                 }
             }
         }
+    }
+}
+
+/**
+* Mobile Nav
+*/
+
+.tih-mobile-menu {
+    @apply fixed z-40 top-0 left-0 bg-accent w-full h-full flex justify-center items-center opacity-0 invisible;
+
+    .tih-mobile-menu__button {
+        @apply bg-background font-black w-fit p-2 text-2xl translate-y-full;
     }
 }
 
