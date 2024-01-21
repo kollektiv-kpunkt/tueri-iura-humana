@@ -1,8 +1,10 @@
 import Typewriter from 'typewriter-effect/dist/core';
 
 document.addEventListener('DOMContentLoaded', function () {
-    window.scrollTo(0, 0);
-    document.body.style.overflow = "hidden";
+    if (!window.location.hash) {
+        window.scrollTo(0, 0);
+        document.body.style.overflow = "hidden";
+    }
 });
 
 
@@ -56,14 +58,15 @@ window.addEventListener('load', function () {
         });
     }, 15000);
 
-    let proceedButton = document.querySelector("#intro .tih-proceed-button");
+    let proceedButtonWrapper = document.querySelector("#intro .tih-proceed-button");
+    let proceedButton = proceedButtonWrapper.querySelector("span");
     proceedButton.addEventListener("click", function () {
         let intro = document.querySelector("#intro");
         window.scrollTo(0, intro.scrollHeight);
     });
 
     setTimeout(() => {
-        proceedButton.animate([
+        proceedButtonWrapper.animate([
             { opacity: 1, transform: "translateY(100%)", offset: 0 },
             { opacity: 1, transform: "translateY(0)", offset: 1 }
         ], {

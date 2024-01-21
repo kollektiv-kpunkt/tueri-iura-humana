@@ -9,7 +9,7 @@ window.addEventListener('load', () => {
             opacity: 0,
             duration: 1000,
             reset: false,
-            delay: 200,
+            delay: 500,
         });
         sr.reveal(section);
     });

@@ -1,4 +1,4 @@
-<div class="tih-details-toggle bg-background text-accent p-4">
+<div {{$attributes->merge(["class" => "tih-details-toggle bg-background text-accent p-4"])}}>
     <div class="tih-details-toggle__title-wrapper flex justify-between items-center cursor-pointer">
         <p class="tih-details-toggle__title font-black !leading-[86%]">{{$title}}</p>
         <div class="tih-details-toggle__icon-wrapper">
@@ -9,6 +9,8 @@
         </div>
     </div>
     <div class="tih-details-toggle__content">
-        {{$slot}}
+        <div class="tih-details-toggle__inner mt-6">
+            {{$slot}}
+        </div>
     </div>
 </div>

@@ -29,13 +29,15 @@
 .tih-proceed-button {
     position: absolute;
     bottom: 0;
-    left: 50%;
+    left: 0;
+    width: 100%;
+    max-width: unset;
     transform: translateX(-50%);
-    @apply flex justify-center bg-accent py-4 px-16 w-full md:w-fit translate-y-full opacity-0 cursor-pointer;
+    @apply flex justify-center translate-y-full opacity-0;
 
     span {
         font-size: 2rem;
-        @apply text-background;
+        @apply text-background bg-accent py-4 px-16 cursor-pointer;
     }
 }
 
@@ -46,5 +48,9 @@
 .tih-details-toggle {
     &+& {
         @apply mt-4;
+    }
+
+    .tih-details-toggle__content {
+        @apply max-h-0 overflow-hidden;
     }
 }
