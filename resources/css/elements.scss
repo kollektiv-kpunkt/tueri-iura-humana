@@ -2,12 +2,12 @@
 * Navigation bar
 */
 .tih-nav-bar {
-    transform: translateY(-100%);
     position: sticky;
-    top: 4rem;
+    top: 0;
+    @apply z-50 w-full bg-background;
 
     .tih-nav-bar__button {
-        @apply text-sm lg:text-base px-4 py-2 leading-none bg-accent text-black font-bold;
+        @apply text-sm lg:text-base px-4 py-2 leading-none bg-accent text-background font-bold;
     }
 
     .tih-nav-bar__hamburger {
@@ -20,6 +20,22 @@
                 }
             }
         }
+    }
+}
+
+/**
+* Landing Page Hero
+*/
+.tih-proceed-button {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    @apply flex justify-center bg-accent py-4 px-16 w-full md:w-fit translate-y-full opacity-0 cursor-pointer;
+
+    span {
+        font-size: 2rem;
+        @apply text-background;
     }
 }
 

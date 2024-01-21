@@ -1,4 +1,4 @@
-<div class="tih-nav-bar mix-blend-difference backdrop-blur-sm">
+<div class="tih-nav-bar">
     <div class="tih-nav-bar__content px-3 py-2 flex justify-between items-center">
         <x-logo class="h-12" />
         <div class="tih-nav-bar__buttons gap-x-4 items-center hidden md:flex">

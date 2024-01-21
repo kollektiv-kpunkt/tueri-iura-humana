@@ -1,7 +1,8 @@
 <x-layout-wrapper>
-    <x-content-section class="tih-landing-section" id="intro">
-        <h1 class="fullwidth">Aktivismus ist kein Verbrechen.</h1>
+    <x-content-section class="tih-landing-section min-h-screen" id="intro">
+        <h1 class="fullwidth">Aktivismus ist <span></span></h1>
         <p class="sm"><span class="text-white">Mit der <em>«Anti-Chaot:innen Initiative»</em> fordert die SVP eine Bewilligungspflicht für alle öffentlichen Kundgebungen und Demonstrationen. Außerdem sollen die Kosten für sogenannte “ausserordentliche Polizeieinsätze” zwingend auf deren Verursacher*innen abgewälzt werden.</span> <b>Diese Forderungen sind nicht nur ein Angriff auf unsere demokratischen Grundrechte und eine Kriminalisierung von zivilgesellschaftlichem Engagement, es ist auch ein Ausbau der Polizeiwillkür.</b></p>
+        <span class="tih-proceed-button"><span class="material-symbols-outlined">expand_more</span></span>
     </x-content-section>
     <x-navbar/>
     <x-content-section id="darum-gehts">
