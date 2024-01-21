@@ -15,6 +15,7 @@
         "vite": "^5.0.0"
     },
     "dependencies": {
+        "js-cookie": "^3.0.5",
         "scrollreveal": "^4.0.9",
         "typewriter-effect": "^2.21.0"
     }
