@@ -30,8 +30,12 @@
 .tih-mobile-menu {
     @apply fixed z-40 top-0 left-0 bg-accent w-full h-full flex justify-center items-center opacity-0 invisible;
 
-    .tih-mobile-menu__button {
-        @apply bg-background font-black w-fit p-2 text-2xl translate-y-full;
+    .tih-mobile-menu__button-inner {
+        @apply translate-y-full opacity-0;
+
+        .tih-mobile-menu__button {
+            @apply bg-background font-black w-fit p-2 text-2xl block;
+        }
     }
 }
 
