@@ -3,7 +3,8 @@
         "Darum geht es" => "#darum-gehts",
         "Unsere Argumente" => "#unsere-argumente",
         "Was geht mich das an?" => "#was-geht-mich-das-an",
-        "Hilf mit" => "#hilf-mit"
+        "Hilf mit" => "#hilf-mit",
+        "Über uns" => "#ueber-uns"
 ];
 @endphp
 <div class="tih-nav-bar">

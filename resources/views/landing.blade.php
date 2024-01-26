@@ -49,6 +49,7 @@
             <div class="w-full flex justify-center">
                 <div class="dds-widget-container mt-6" data-widget="lema"></div>
             </div>
+            <p class="!text-sm mt-3"><em>Deine Spende wird über das Konto der JUSO Kanton Zürich abgerechnet, kommt aber vollumfänglich dem Bündnis gegen Repression zugute.</em></p>
         </x-toggle>
         <script type="text/javascript">
         window.rnwWidget = window.rnwWidget || {};
@@ -58,6 +59,15 @@
         });
         </script>
         <script src="https://lema.raisenow.com/widgets/lema/jusok-d372/js/dds-init-widget-de.js"></script>
+
+    </x-content-section>
+    <x-content-section id="ueber-uns">
+        <h2 class="fullwidth">Wer sind wir?</h2>
+        <p>Wir sind eine Gruppe bestehend aus Personen aus verschiedensten linken Organisationen, Bewegungen und Einzelpersonen aus dem Kanton Zürich, die sich Ende 2023 zum “Bündnis gegen Repression” zusammengeschlossen haben.</p>
+        <p>Demoverbote, Polizeirepression, Polizeigewalt, Bussen, Verweise, Räumungen und horrende Kosten für Einzelpersonen – die zunehmende staatliche Repression und Kriminalisierung von Aktivismus in der Schweiz und insbesondere auch im Kanton Zürich bereitet uns Sorgen. Wir sind der Meinung, dass wir organisiert und gemeinsam gegen die diversen Entwicklungen der verstärkten staatlichen Repression gegen Aktivist*innen vorgehen müssen, statt tatenlos zuzusehen, wie (linker) Aktivismus kriminalisiert und das Grundrecht auf Versammlungsfreiheit im Kanton Zürich ausgehöhlt wird.</p>
+        <p>Einerseits um kurzfristig gegen die Initiativen vom 3. März 2024 vorzugehen und langfristig - wenn der Wille da ist - um gemeinsame, solidarische antiRep Strukturen aufzubauen.</p>
+        <h3 class="fullwidth mt-20 mb-8 text-4xl">Kontaktiere uns</h3>
+        <p>Über diese Mailadresse <a href="mailto:info@buendnisgegenrepression.ch" class="text-accent underline">info@buendnisgegenrepression.ch</a> kannst du uns erreichen, falls du oder deine Organisation unserem Bündnis beitreten oder sich mit uns vernetzen möchte.</p>
 
     </x-content-section>
 </x-layout-wrapper>
