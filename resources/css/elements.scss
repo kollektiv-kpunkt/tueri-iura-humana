@@ -70,3 +70,34 @@
         @apply max-h-0 overflow-hidden;
     }
 }
+
+
+/**
+* Downloadables
+*/
+
+.tih-downloadables-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 2rem;
+    @apply mt-8;
+
+    .tih-downloadable {
+        position: relative;
+
+        a {
+            cursor: pointer;
+        }
+
+        p {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            font-size: 1rem;
+            line-height: 1;
+            padding: 0.5rem;
+
+            @apply bg-accent bg-opacity-90 text-white;
+        }
+    }
+}
