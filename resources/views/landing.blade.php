@@ -80,8 +80,8 @@
                     </a>
                 </div>
                 <div class="tih-downloadable">
-                    <a href="/assets/img/downloadables/Polizeiwillkür.zip" download="Instagram Post_Ausbau der Polizeiwillkür.zip">
-                        <img src="/assets/img/downloadables/Polizeiwillkür_DEF_Front.png" alt="Frontimage Post «Ausbau der Polizeiwillkür»">
+                    <a href="/assets/img/downloadables/Polizeiwillkur.zip" download="Instagram Post_Ausbau der Polizeiwillkuer.zip">
+                        <img src="/assets/img/downloadables/Polizeiwillkuur_DEF_Front.png" alt="Frontimage Post «Ausbau der Polizeiwillkür»">
                         <p>Instagram Post: «Ausbau der Polizeiwillkür»</p>
                     </a>
                 </div>
