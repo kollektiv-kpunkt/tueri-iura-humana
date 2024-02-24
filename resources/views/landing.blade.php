@@ -57,43 +57,43 @@
             <div class="tih-downloadables-grid">
                 <div class="tih-downloadable">
                     <a href="/assets/img/downloadables/Alle.zip" download="Instagram Post_Wir alle sind Chaot_innen.zip">
-                        <img src="/assets/img/downloadables/Alle_DEF_Front.png" alt="Frontimage Post «Wir alle sind Chaot*innen»">
+                        <img src="/assets/img/downloadables/Alle_DEF_Front.png" alt="Frontimage Post «Wir alle sind Chaot*innen»" loading="lazy">
                         <p>Instagram Post: «Die Chaot:innen sind wir alle»</p>
                     </a>
                 </div>
                 <div class="tih-downloadable">
                     <a href="/assets/img/downloadables/Bewilligungspflicht.zip" download="Instagram Post_Zementierung der Bewilligungspflicht.zip">
-                        <img src="/assets/img/downloadables/Bewilligungspflicht_DEF_Front.png" alt="Frontimage Post «Zementierung der Bewilligungspflicht»">
+                        <img src="/assets/img/downloadables/Bewilligungspflicht_DEF_Front.png" alt="Frontimage Post «Zementierung der Bewilligungspflicht»" loading="lazy">
                         <p>Instagram Post: «Zementierung der Bewilligungspflicht»</p>
                     </a>
                 </div>
                 <div class="tih-downloadable">
                     <a href="/assets/img/downloadables/Fortschritt.zip" download="Instagram Post_Ohne Chaot_innen kein Fortschritt.zip">
-                        <img src="/assets/img/downloadables/Fortschritt_DEF_Front.png" alt="Frontimage Post «Ohne Chaot:innen kein Fortschritt!»">
+                        <img src="/assets/img/downloadables/Fortschritt_DEF_Front.png" alt="Frontimage Post «Ohne Chaot:innen kein Fortschritt!»" loading="lazy">
                         <p>Instagram Post: «Ohne Chaot:innen kein Fortschritt!»</p>
                     </a>
                 </div>
                 <div class="tih-downloadable">
                     <a href="/assets/img/downloadables/Kriminalisierung.zip" download="Instagram Post_Kriminalisierung von Aktivismus.zip">
-                        <img src="/assets/img/downloadables/Kriminalisierung_DEF_Front.png" alt="Frontimage Post «Kriminalisierung von Aktivismus»">
+                        <img src="/assets/img/downloadables/Kriminalisierung_DEF_Front.png" alt="Frontimage Post «Kriminalisierung von Aktivismus»" loading="lazy">
                         <p>Instagram Post: «Kriminalisierung von Aktivismus»</p>
                     </a>
                 </div>
                 <div class="tih-downloadable">
                     <a href="/assets/img/downloadables/Polizeiwillkur.zip" download="Instagram Post_Ausbau der Polizeiwillkuer.zip">
-                        <img src="/assets/img/downloadables/Polizeiwillkur_DEF_Front.png" alt="Frontimage Post «Ausbau der Polizeiwillkür»">
+                        <img src="/assets/img/downloadables/Polizeiwillkur_DEF_Front.png" alt="Frontimage Post «Ausbau der Polizeiwillkür»" loading="lazy">
                         <p>Instagram Post: «Ausbau der Polizeiwillkür»</p>
                     </a>
                 </div>
                 <div class="tih-downloadable">
                     <a href="/assets/img/downloadables/Zusammen.zip" download="Instagram Post_Alle zusammen gegen die Anti-Chaot_innen Initiative.zip">
-                        <img src="/assets/img/downloadables/Zusammen_DEF_Front.png" alt="Frontimage Post «Alle zusammen gegen die Anti-Chaot:innen Initiative»">
+                        <img src="/assets/img/downloadables/Zusammen_DEF_Front.png" alt="Frontimage Post «Alle zusammen gegen die Anti-Chaot:innen Initiative»" loading="lazy">
                         <p>Instagram Post: «Alle zusammen gegen die Anti-Chaot:innen Initiative»</p>
                     </a>
                 </div>
                 <div class="tih-downloadable">
                     <a href="/assets/img/downloadables/Flyer.zip" download="Flyer_Aktivismus ist kein Verbrechen.zip">
-                        <img src="/assets/img/downloadables/Flyer_DEF_Front.png" alt="Frontimage Flyer «Aktivismus ist kein Verbrechen!»">
+                        <img src="/assets/img/downloadables/Flyer_DEF_Front.png" alt="Frontimage Flyer «Aktivismus ist kein Verbrechen!»" loading="lazy">
                         <p>Flyer: «Aktivismus ist kein Verbrechen!»</p>
                     </a>
                 </div>
