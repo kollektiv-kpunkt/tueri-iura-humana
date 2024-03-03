@@ -101,3 +101,33 @@
         }
     }
 }
+
+
+/**
+* Alert
+*/
+.tih-alert {
+    @apply bg-accent text-white fixed top-0 left-0 w-full z-[999999] cursor-pointer;
+
+    &__container {
+        @apply flex justify-between items-center gap-4 overflow-hidden max-h-0;
+    }
+
+    &__content {
+        @apply px-3 py-6;
+    }
+
+    &__title {
+        @apply text-2xl md:text-4xl mb-0 text-white;
+    }
+
+    &__close {
+        position: absolute;
+        bottom: -1rem;
+        right: 0;
+        padding: 0.5rem;
+        opacity: 0;
+        visibility: hidden;
+        @apply bg-white text-accent;
+    }
+}

@@ -5,3 +5,4 @@ import './content-sections.js';
 import './heroine.js';
 import './toggles.js';
 import './donation-bar.js';
+import './alert.js';

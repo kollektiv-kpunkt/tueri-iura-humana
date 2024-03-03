@@ -12,4 +12,10 @@
             @apply max-h-0 overflow-hidden;
         }
     }
+
+    &#statement {
+        .tih-content-section__content {
+            @apply md:py-20 py-12;
+        }
+    }
 }
